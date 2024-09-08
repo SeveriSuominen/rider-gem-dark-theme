@@ -1,0 +1,9 @@
+.idea/
+!.idea/workspace.xml
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+tmp/
+out/
+.DS_Store
+*.jar

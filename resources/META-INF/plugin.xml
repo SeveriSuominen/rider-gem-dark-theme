@@ -1,0 +1,25 @@
+<idea-plugin>
+  <id>seve.rider-gem-dark-theme</id>
+  <version>1.0.0</version>
+  <name>Gem-Dark Theme</name>
+  <vendor email="severi.suominen@proton.me" url="severisuominen.dev">Severi Suominen</vendor>
+
+  <description><![CDATA[
+    Gentle dark editor theme modified from https://plugins.jetbrains.com/plugin/13106-xcode-dark-theme/ to suit my personal preferences and sensitive eyes even better
+  ]]></description>
+  <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+  <idea-version since-build="191.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ef29b6ef-e306-45f0-919d-6264c9105248" path="/Xcode-Dark.theme.json"/>
+  </extensions>
+
+  <actions>
+  </actions>
+
+</idea-plugin>
